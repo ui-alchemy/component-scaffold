@@ -142,12 +142,6 @@ module.exports = function (grunt) {
           'dist/<%= yeoman.component %>.js': [
             '.tmp/templates/*.js', //must be first
             'component/scripts/**/*.js'
-          ],
-          'dist/media_object.css': [
-            '.tmp/styles/media_object.css'
-          ],
-          'dist/normalize.css': [
-            '.tmp/styles/normalize.css'
           ]
         }
       }
